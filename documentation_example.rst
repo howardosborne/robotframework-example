@@ -12,7 +12,9 @@ It can also be used to document the system under test.
 
 For example, in could contain links to other resources: https://portal.jerseyfsc.org 
 and images
+
 .. image:: screenshot.png
+
 .. code:: robotframework
 
     *** Settings ***
