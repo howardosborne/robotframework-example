@@ -14,6 +14,8 @@ For example, in could contain links to other resources: https://portal.jerseyfsc
 and images
 
 .. image:: screenshot.png
+  :width: 300
+  :alt: A typical screenshot of the system
 
 .. code:: robotframework
 
