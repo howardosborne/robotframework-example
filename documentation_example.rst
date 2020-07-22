@@ -1,7 +1,7 @@
-Test cases
+Using RobotFramework
 ==========
 
-Workflow tests
+Acceptance Tests
 --------------
 
 This is an example of a documented system which is also an executable test.
@@ -10,12 +10,7 @@ The idea is that it can contain information about the tests - their purpose and 
 
 It can also be used to document the system under test.
 
-For example, in could contain links to other resources: https://portal.jerseyfsc.org 
-and images
-
-.. image:: screenshot.png
-  :width: 300
-  :alt: A typical screenshot of the system
+This will allow a broad audience to read it and gain confidence in the work done.
 
 .. code:: robotframework
 
@@ -41,4 +36,10 @@ and images
         [Teardown]  Close Browser
         
 You can write whatever you want to document both the tests and the system under test
-This will allow a broad audience to read it and gain confidence in the work done
+
+For example, in could contain links to other resources: https://portal.jerseyfsc.org 
+and images
+
+.. image:: screenshot.png
+  :width: 100
+  :alt: A typical screenshot of the system
