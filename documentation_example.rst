@@ -10,10 +10,9 @@ The idea is that it can contain information about the tests - their purpose and 
 
 It can also be used to document the system under test.
 
-For example, in could contain links to other .. _resources: https://portal.jerseyfsc.org 
+For example, in could contain links to other resources: https://portal.jerseyfsc.org 
 and images
 .. image:: screenshot.png
-
 .. code:: robotframework
 
     *** Settings ***
