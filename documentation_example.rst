@@ -16,12 +16,18 @@ This is an example of a documented system which is also an executable test
     Resource          resources.robot
 
     *** Test Cases ***
-    Valid Homepage
+    Homepage Is Valid
         Open Browser To Home Page
         Homepage Should Be Open
-        Element Should Be Visible  xpath://a[text()='Contact Us'] 
-        Element Attribute Value Should Be  xpath://a[text()='Contact Us']  href  ${HOST}Pages/ContactUs.aspx
+        Homepage Links Should Be Valid
         [Teardown]  Close Browser
 
+    New User Can Register
+        Open Browser To Home Page
+        Click Register Link on Homepage
+        Fill In Register Form with Happy Path Details
+        Check Registration Complete
+        [Teardown]  Close Browser
+        
 You can write whatever you want to document both the tests and the system under test
 This will allow a broad audience to read it and gain confidence in the work done
