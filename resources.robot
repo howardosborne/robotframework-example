@@ -23,7 +23,7 @@ Homepage Should Be Open
 
 Homepage Links Should Be Valid
     Element Should Be Visible  xpath://a[text()='Contact Us'] 
-    Element Attribute Value Should Be  xpath://a[text()='Contact Us']  href  ${HOST}Pages/ContactUs.aspx
+    Element Attribute Value Should Be  xpath://a[text()='Contact Us']  href  ${HOST}/Pages/ContactUs.aspx
 
 Click Register Link on Homepage
     Click Link  /Pages/UserProfile.aspx?mode=new

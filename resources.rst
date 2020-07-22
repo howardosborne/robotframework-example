@@ -1,18 +1,10 @@
-Test cases
+Resources
 ==========
 
-Workflow tests
+Personal Questionnaire Resources
 --------------
 
-This is an example of a documented system which is also an executable test.
-
-The idea is that it can contain information about the tests - their purpose and scope.
-
-It can also be used to document the system under test.
-
-For example, in could contain links to other .. _resources: https://portal.jerseyfsc.org 
-and images
-.. image:: screenshot.png
+This is an example of a documented system which is also an executable test
 
 .. code:: robotframework
 
